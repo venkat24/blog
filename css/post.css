@@ -1,0 +1,59 @@
+#wrapper {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.info {
+    text-align: left;
+}
+
+.main-content {
+    margin: 40px;
+}
+
+.post-title {
+    margin: 15px;
+}
+
+#intro-div-post {
+    display: inline-block;
+    max-width: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.subtitle {
+    color: #DA4167;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+li {
+    list-style-type: none;
+    color: #D095A3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 70px;
+    color: #F8F8F0;
+    background-color: #325E8E;
+    position: absolute;
+}
+
+.footer-content {
+    margin: 30px;
+    text-align: left;
+    display: inline-block;
+    width: 50%;
+}
+
+.footer-links {
+    left: -105%;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}

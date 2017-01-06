@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Asul:700|Open+Sans|Quicksand:400');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     color: #445566;
     border-top:    solid 20px #DA4167;
-    border-bottom: solid 20px #325E8E;
+}
+
+h6 {
+    font-size: 15px;
+    color: #444444;
+    margin: 5px 20px 5px 5px;
 }
 
 body {
@@ -23,7 +33,7 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 36px;
 }
 
 p {
@@ -48,6 +58,12 @@ p {
 #intro-div {
     position: relative;
     width: 400px;
+}
+
+h6 {
+    font-size: 15px;
+    color: #444444;
+    margin: 5px 20px 5px 5px;
 }
 
 a {
