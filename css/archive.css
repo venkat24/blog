@@ -11,6 +11,23 @@
 }
 
 a {
+    color: #325E8E;
     margin-top: 40px;
     text-decoration-style: none;
+}
+
+.archive-subtitle {
+    color:#555555;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    /*margin: '5px 20px 0px 0px';*/
+}
+
+@media screen and (max-width: 700px) {
+    .date {
+        font-size: 11px;
+    }
+    #content-list {
+        width: 75%;
+    }
 }

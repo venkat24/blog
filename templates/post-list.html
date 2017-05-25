@@ -1,15 +1,8 @@
 <ul>
     $for(posts)$
         <li>
-            <a href="$url$">$title$</a> - $date$
-            <h6 style="
-                color:#555555;
-                font-family: 'Open Sans';
-                font-size: 13px;
-                margin: '5px 20px 5px 5px';
-            ">
-                $subtitle$
-            </h6>
+            <a href="$url$">$title$</a> - <span class="date">$date$</span>
+            <h6 class="archive-subtitle">$subtitle$</h6>
         </li>
         <br />
     $endfor$
