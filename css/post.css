@@ -22,7 +22,8 @@ body {
 #intro-div-post {
     display: inline-block;
     max-width: 100%;
-    width: 50%;
+    width: 80%;
+    max-width: 800px;
     position: relative;
     margin-bottom: 100px;
 }
@@ -66,13 +67,15 @@ footer {
     position: relative;
     overflow: hidden;
 }
-.footer-content a {
+.footer-content a span {
+    width: 100px;
+    display: inline-block;
     color: #F8F8F0;
-    margin: 10px 20px;
+    margin: 3px 4px;
 }
 
 @media screen and (max-width: 700px) {
     .footer-content a {
-        font-size: 20px;
+        font-size: 14px;
     }
 }
